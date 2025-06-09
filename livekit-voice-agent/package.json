@@ -1,0 +1,29 @@
+{
+  "name": "livekit-voice-agent",
+  "version": "1.0.0",
+  "description": "AI voice agent using Livekit with real-time STT, LLM, and TTS pipeline",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@deepgram/sdk": "^2.4.0",
+    "@google-cloud/speech": "^7.1.0",
+    "@google-cloud/text-to-speech": "^6.1.0",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "elevenlabs-node": "^1.1.0",
+    "exceljs": "^4.3.0",
+    "express": "^4.21.2",
+    "groq-sdk": "^0.3.0",
+    "livekit-client": "^1.15.13",
+    "livekit-server-sdk": "^1.2.7",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.1.1",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
